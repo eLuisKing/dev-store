@@ -41,4 +41,4 @@ Ejecutamos este comando
 
 *Para automatizar el build lo hacemos en el archivo de package.json de la siguiente manera
 => "tw:build": "tailwindcss -i ./src/css/tailwind.css -o ./public/css/tailwind.css --watch1"
-Anhadimos la linea anterio
+Anhadimos la linea anterior
