@@ -3,6 +3,11 @@ module.exports = {
   content: ["./index.html", "./src/**/*.{html,js}"],
   theme: {
     extend: {
+      backgroundImage:{
+        'keagan-henman1': "url('public/img/keagan-henman.jpg')",
+        'keagan-henman2': "url('public/img/keagan-henman-x.jpg')",
+        'shirt-1': "url('public/img/tshirt-1.JPG')",
+      },
       backgroundColor: theme =>({
 				...theme('colors'),
 				'primary': '#0A2647',
@@ -15,6 +20,9 @@ module.exports = {
 				'text-1': '#e2e8f0',
         'text-2': '#0f172a',
 			},
+      fontFamily: {
+				Poppins: ['Poppins', 'sans-serif'],
+			 },
     },
   },
   plugins: [],
